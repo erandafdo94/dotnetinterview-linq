@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-linq-practice", "dotnet-linq-practice\dotnet-linq-practice.csproj", "{BE187A39-A7D5-4AFE-B45F-5D6C062796F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE187A39-A7D5-4AFE-B45F-5D6C062796F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE187A39-A7D5-4AFE-B45F-5D6C062796F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE187A39-A7D5-4AFE-B45F-5D6C062796F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE187A39-A7D5-4AFE-B45F-5D6C062796F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
