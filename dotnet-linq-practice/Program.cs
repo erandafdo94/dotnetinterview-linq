@@ -73,6 +73,22 @@ namespace LinqPractice
                     category = cat.Key,
                     discontinuedGroups = cat.GroupBy(p => p.IsDiscontinued)
                 });
+            
+            // EXERCISE 6: Partitioning
+            // Use the Take and Skip operations to create a simple pagination system
+            // Create a function that returns a specific "page" of products, sorted by price
+            // Format output: "Page [PageNum]: [ItemsDisplayed] items"
+            
+            // EXERCISE 7: Element operations
+            // Find the first product over $1000, the last product under $50,
+            // and a product with exactly $199.99 price (or default if none exists)
+            // Format output: "First >$1000: [Name], Last <$50: [Name], At $199.99: [Name or 'None']"
+
+            var firstOver1000 = products.FirstOrDefault(p => p.Price > 1000);
+            var lastProduct50 = products.OrderByDescending(p => p.ReleaseDate).First(p => p.Price < 50);
+            var defaultPrice = products.FirstOrDefault(p => p.Price == 199.99m);
+
+
         }
 
         // Method to generate sample product data
